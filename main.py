@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 # ────────────────────────────────────────────────
 #  === REPLACE WITH YOUR GEMINI API KEY ===
-GEMINI_API_KEY = "AIzaSyAC2RX0QsQOm4BRbcq-OvJ7nGlqBELAo4g"
+GEMINI_API_KEY = 
 # ────────────────────────────────────────────────
 
 genai.configure(api_key=GEMINI_API_KEY)
@@ -318,4 +318,5 @@ def open_main_app(user_id, username):
 if __name__ == "__main__":
     root = tk.Tk()
     app = LoginWindow(root)
+
     root.mainloop()
